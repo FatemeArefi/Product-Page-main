@@ -52,6 +52,37 @@ button {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-item {
+  background-color: #fff;
+  width: 320px;
+  margin: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+  padding: 15px;
+}
+.product-item img {
+  width: 290px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.product-item p {
+  color: grey;
+  margin: 10px 0 15px;
+}
+.product-item span {
+  display: inline-block;
+  margin-bottom: 0px;
+  background-color: #220efa;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1000px) {
   header {
     margin-left: 12px;
